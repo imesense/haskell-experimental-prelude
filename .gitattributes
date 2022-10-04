@@ -1,0 +1,29 @@
+# Global attributes for forcing line endings normalization of specific files
+# This is also used by GitHub Linguist for detecting languages in the repository
+
+* text=auto
+
+# Git configs
+.gitattributes text eol=lf encoding=utf-8
+.gitignore     text eol=lf encoding=utf-8
+
+# Markdown documents
+*.md text eol=lf encoding=utf-8 linguist-language=Markdown
+
+# Haskell sources
+*.hs text eol=lf encoding=utf-8 linguist-language=Haskell
+
+# Stack project files
+package.yaml    text eol=lf encoding=utf-8
+stack.yaml      text eol=lf encoding=utf-8
+stack.yaml.lock text eol=lf encoding=utf-8
+
+# Cabal project files
+*.cabal text eol=lf encoding=utf-8 linguist-language=Cabal
+
+# GHCi configs
+*.ghci text eof=lf encoding=utf-8 linguist-language=Haskell
+
+# Visual Studio Code project files
+*.code-workspace text eol=crlf encoding=utf-8 linguist-language=JSON
+.vscode/*.json   text eol=crlf encoding=utf-8 linguist-language=JSON
