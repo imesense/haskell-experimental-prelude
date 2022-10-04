@@ -6,6 +6,11 @@
         }
     ],
     "settings": {
+        "files.associations": {
+            "**/*.ghci": "haskell",
+            "**/*.hs": "haskell",
+            "**/*.cabal": "cabal"
+        },
         "files.exclude": {
             "**/.git": true,
             "**/.svn": true,
