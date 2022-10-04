@@ -1,0 +1,14 @@
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.stack-work": true,
+        "**/dist-newstyle": true
+    }
+}
