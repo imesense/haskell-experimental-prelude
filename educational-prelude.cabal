@@ -25,7 +25,11 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Base
+      Base.Bool
+      Base.Eq
+      Base.Maybe
+      EducationalPrelude
   other-modules:
       Paths_educational_prelude
   hs-source-dirs:
