@@ -1,6 +1,6 @@
-name:       educational-prelude
+name:       exp-prelude
 version:    0.1.0.0
-github:     "imesense/educational-prelude"
+github:     "imesense/exp-prelude"
 license:    MIT
 author:     "Renat Shakirov"
 maintainer: "acidicmercury8@outlook.com"
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description: Please see the README on GitHub at <https://github.com/githubuser/educational-prelude#readme>
+description: Please see the README on GitHub at <https://github.com/githubuser/exp-prelude#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -34,26 +34,26 @@ ghc-options:
 - -Wredundant-constraints
 
 library:
-  source-dirs: src/EducationalPrelude
+  source-dirs: src/ExpPrelude
 
 executables:
-  educational-prelude-exe:
+  exp-prelude-exe:
     main: Main.hs
-    source-dirs: src/EducationalPrelude.Demo
+    source-dirs: src/ExpPrelude.Demo
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - educational-prelude
+    - exp-prelude
 
 tests:
-  educational-prelude-test:
+  exp-prelude-test:
     main: Spec.hs
-    source-dirs: test/EducationalPrelude.Tests
+    source-dirs: test/ExpPrelude.Tests
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - educational-prelude
+    - exp-prelude

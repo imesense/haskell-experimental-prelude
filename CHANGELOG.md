@@ -1,4 +1,4 @@
-# Changelog for `educational-prelude`
+# Changelog for `exp-prelude`
 
 All notable changes to this project will be documented in this file.
 

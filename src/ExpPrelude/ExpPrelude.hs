@@ -1,5 +1,5 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module EducationalPrelude
+module ExpPrelude
   (
   ) where

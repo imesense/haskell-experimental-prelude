@@ -1,4 +1,4 @@
-# Educational Prelude
+# Experimental Prelude
 
 Haskell Prelude standard library reimplementation project for educational purposes
 

@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "name": "Exp Prelude",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "**/*.ghci": "haskell",
+            "**/*.hs": "haskell",
+            "**/*.cabal": "cabal"
+        }
+    }
+}

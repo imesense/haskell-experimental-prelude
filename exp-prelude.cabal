@@ -1,14 +1,14 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.35.0.
+-- This file has been generated from package.yaml by hpack version 0.35.1.
 --
 -- see: https://github.com/sol/hpack
 
-name:           educational-prelude
+name:           exp-prelude
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/educational-prelude#readme>
-homepage:       https://github.com/imesense/educational-prelude#readme
-bug-reports:    https://github.com/imesense/educational-prelude/issues
+description:    Please see the README on GitHub at <https://github.com/githubuser/exp-prelude#readme>
+homepage:       https://github.com/imesense/exp-prelude#readme
+bug-reports:    https://github.com/imesense/exp-prelude/issues
 author:         Renat Shakirov
 maintainer:     acidicmercury8@outlook.com
 copyright:      2022 (c) Renat Shakirov
@@ -21,7 +21,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/imesense/educational-prelude
+  location: https://github.com/imesense/exp-prelude
 
 library
   exposed-modules:
@@ -29,37 +29,37 @@ library
       Base.Bool
       Base.Eq
       Base.Maybe
-      EducationalPrelude
+      ExpPrelude
   other-modules:
-      Paths_educational_prelude
+      Paths_exp_prelude
   hs-source-dirs:
-      src/EducationalPrelude
+      src/ExpPrelude
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
   default-language: Haskell2010
 
-executable educational-prelude-exe
+executable exp-prelude-exe
   main-is: Main.hs
   other-modules:
-      Paths_educational_prelude
+      Paths_exp_prelude
   hs-source-dirs:
-      src/EducationalPrelude.Demo
+      src/ExpPrelude.Demo
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , educational-prelude
+    , exp-prelude
   default-language: Haskell2010
 
-test-suite educational-prelude-test
+test-suite exp-prelude-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
-      Paths_educational_prelude
+      Paths_exp_prelude
   hs-source-dirs:
-      test/EducationalPrelude.Tests
+      test/ExpPrelude.Tests
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
-    , educational-prelude
+    , exp-prelude
   default-language: Haskell2010
