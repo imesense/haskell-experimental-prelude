@@ -1,4 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE InstanceSigs #-}
+{-# OPTIONS_GHC -Wno-redundant-constraints #-}
 {-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
 {-# HLINT ignore "Use ==" #-}
 {-# HLINT ignore "Use /=" #-}
@@ -23,6 +25,7 @@ class Eq a where
   {-# MINIMAL (==) | (/=) #-}
 
 instance Eq a => Eq (Maybe a) where
+  (==) :: Eq a => Maybe a -> Maybe a -> Bool
   Nothing == Nothing = True
   Nothing == Just _ = False
   Just _ == Nothing = False
