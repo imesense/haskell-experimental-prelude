@@ -55,6 +55,8 @@ test-suite exp-prelude-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Base.BoolSpec
+      Base.MaybeSpec
       Paths_exp_prelude
   hs-source-dirs:
       test/ExpPrelude.Tests
@@ -62,4 +64,5 @@ test-suite exp-prelude-test
   build-depends:
       base >=4.7 && <5
     , exp-prelude
+    , hspec
   default-language: Haskell2010
